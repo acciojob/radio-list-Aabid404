@@ -7,32 +7,35 @@
 	 <title>Radio Button List</title>
   <style>
     .input {
-      accent-color: red; /* Modern browsers */
-    }
-
-    /* Fallback for older browsers using label color */
-    label.even {
       color: red;
-    }
-
-    .radio-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      font-family: Arial, sans-serif;
     }
   </style>
 </head>
-<body>
 
-<div class="radio-list">
-  <label><input type="radio" name="option" value="1"> Option 1</label>
-  <label class="even"><input type="radio" name="option" value="2" disabled class="input"> Option 2</label>
-  <label><input type="radio" name="option" value="3" checked> Option 3</label>
-  <label class="even"><input type="radio" name="option" value="4" class="input"> Option 4</label>
-  <label><input type="radio" name="option" value="5"> Option 5</label>
-  <label class="even"><input type="radio" name="option" value="6" class="input"> Option 6</label>
-</div>
+<body>
+	<!-- the entire body must be written by student -->
+	 <form>
+    <label><input type="radio" name="option" value="1"> Option 1</label><br>
+
+    <label class="input">
+      <input type="radio" name="option" value="2" disabled> Option 2
+    </label><br>
+
+    <label><input type="radio" name="option" value="3" checked> Option 3</label><br>
+
+    <label class="input">
+      <input type="radio" name="option" value="4"> Option 4
+    </label><br>
+
+    <label><input type="radio" name="option" value="5"> Option 5</label><br>
+
+    <label class="input">
+      <input type="radio" name="option" value="6"> Option 6
+    </label>
+  </form>
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
